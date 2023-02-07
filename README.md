@@ -13,3 +13,5 @@ I set up a portfolio using HTML and CSS to display my current and future work an
 * Section added for current/future projects.
 
 ### Links 
+https://github.com/blake1011001/My-Portfolio
+https://blake1011001.github.io/My-Portfolio/
