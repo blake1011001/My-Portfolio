@@ -10,14 +10,12 @@
     box-sizing: border-box;
 }
 
-/* general settings for all body styling */
 body {
     font-family: Helvetica, Arial, sans-serif;
     color: black;
     background-color: var(--pop);
 }
 
-/* header styling start */
 header {
     background-color: var(--primary);
     display: flexbox;
@@ -70,10 +68,6 @@ header nav ul li a:hover {
     border-radius: 15px;
 }
 
-/* header styling end */
-
-
-/* hero styling start */
 .hero {
     background-image: url(profilePic-html.jpg);
     height: 600px;
@@ -86,9 +80,7 @@ header nav ul li a:hover {
 .hero img {
     height: 400px;
 }
-/* hero styling end */
 
-/* utility class styling start */
 .title {
     border-right: 5px solid var black;
     min-height: 100%;
@@ -102,9 +94,6 @@ header nav ul li a:hover {
     font-size: 40px;
 }
 
-/* utility class styling end */
-
-/* about me section styling start */
 .about-me {
     display: flex;
     justify-content: space-between;
@@ -121,9 +110,7 @@ header nav ul li a:hover {
     line-height: 1.8;
     width: 90%;
 }
-/* about me section styling end */
 
-/* my work section styling start */
 .my-work {
     padding: 30px 0;
     display: flex;
@@ -192,14 +179,11 @@ header nav ul li a:hover {
 }
 
 .project-label {
-    /*background-color: var(--secondary);*/
     background-color: var(--pop);
     color: black;
     padding: 10px;
 }
-/* my work section styling end */
 
-/* contact me section styling start */
 footer {
     display: flex;
     justify-content: space-between;
@@ -231,7 +215,6 @@ footer ul {
 }
 
 footer ul li {
-    /*padding-bottom: 15px;*/
     font-weight: bold;
 
 }
@@ -248,9 +231,7 @@ footer ul li a:hover {
     color: var(--secondary);
     border-radius: 15px;
 }
-/* contact me section styling end */
 
-/* MEDIA QUERY FOR TABLET SCREENS AND SMALLER */
 @media screen and (max-width: 768px) {
     .title h2 {
         font-size: 35px;
@@ -258,12 +239,10 @@ footer ul li a:hover {
 
     .about-me p {
         font-size: 16px;
-        /*padding: 0 15px;*/
         line-height: 1.6;
     }
 }
 
-/* MEDIA QUERY FOR MOBILE PHONE SCREENS AND SMALLER */
 @media screen and (max-width: 575px) {
     header {
         justify-content: center;
