@@ -22,5 +22,5 @@ Can be used on any web browser.
 I built this from scratch with help from my tutor Juan Delgado.
 
 ### Referrences
-W3schools.com
-Youtube 
+* W3schools.com
+* Youtube 
